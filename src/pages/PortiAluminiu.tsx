@@ -1,25 +1,46 @@
 import { useState } from "react";
 
-const compactImages = Object.values(
-  import.meta.glob('@/assets/COMPACT/*.{jpg,jpeg,png,webp}', {
-    eager: true,
-    as: 'url'
-  })
-) as string[];
+const compactImages = [
+  "/assets/COMPACT/compact1.jpg",
+  "/assets/COMPACT/compact2.jpg",
+  "/assets/COMPACT/compact3.jpg",
+  "/assets/COMPACT/compact4.jpg",
+  "/assets/COMPACT/compact5.jpg",
+  "/assets/COMPACT/compact6.jpg",
+  "/assets/COMPACT/compact7.jpg",
+  "/assets/COMPACT/compact8.jpg",
+  "/assets/COMPACT/compact9.jpg",
+  "/assets/COMPACT/compact10.jpg",
+  "/assets/COMPACT/compact11.jpg",
+  "/assets/COMPACT/compact12.jpg",
+  "/assets/COMPACT/compact13.jpg",
+  "/assets/COMPACT/compact14.jpg",
+  "/assets/COMPACT/compact15.jpg",
+  "/assets/COMPACT/compact16.jpg",
+  "/assets/COMPACT/compact17.jpg",
+];
 
-const prismaImages = Object.values(
-  import.meta.glob('@/assets/PRISMA/*.{jpg,jpeg,png,webp}', {
-    eager: true,
-    as: 'url'
-  })
-) as string[];
+const prismaImages = [
+  "/assets/PRISMA/prisma1.jpg",
+  "/assets/PRISMA/prisma2.jpg",
+  "/assets/PRISMA/prisma3.jpg",
+  "/assets/PRISMA/prisma4.jpg",
+  "/assets/PRISMA/prisma5.jpg",
+  "/assets/PRISMA/prisma6.jpg",
+  "/assets/PRISMA/prisma7.jpg",
+];
 
-const supremeImages = Object.values(
-  import.meta.glob('@/assets/SUPREME/*.{jpg,jpeg,png,webp}', {
-    eager: true,
-    as: 'url'
-  })
-) as string[];
+const supremeImages = [
+  "/assets/SUPREME/supreme1.jpg",
+  "/assets/SUPREME/supreme2.jpg",
+  "/assets/SUPREME/supreme3.jpg",
+  "/assets/SUPREME/supreme4.jpg",
+  "/assets/SUPREME/supreme5.jpg",
+  "/assets/SUPREME/supreme6.jpg",
+  "/assets/SUPREME/supreme7.jpg",
+  "/assets/SUPREME/supreme8.jpg",
+  "/assets/SUPREME/supreme9.jpg",
+];
 
 
 function PortiAluminiu() {

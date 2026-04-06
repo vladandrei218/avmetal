@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.email-phone-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.email-phone-link:hover {
+  color: #cccccc;
+}
+
+.modern-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.modern-underline::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background-color: #1877f2; /* your brand color */
+  left: 25%; /* centers the underline */
+  bottom: -8px; /* space below the text */
+  border-radius: 2px; /* rounded edges */
+}

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const AutomatizariBFTImages = Object.values(
-    import.meta.glob('/public/assets/BALUSTRADE/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
+    import.meta.glob('/assets/BALUSTRADE/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
 ) as string[];
 
 

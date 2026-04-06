@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const metaliceImages = Object.values(
-    import.meta.glob('/public/assets/METALICE/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
+    import.meta.glob('/assets/METALICE/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
 ) as string[];
 
 

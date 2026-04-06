@@ -6,7 +6,7 @@ function Header() {
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">
                     <img
-                        src="/public/assets/sigla-av-metal.jpg"
+                        src="/assets/sigla-av-metal.jpg"
                         className="img-fluid"
                         style={{ width: "150px" }}
                     />

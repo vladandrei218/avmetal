@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 
 const products = [
-    { img: "/public/assets/portialuminiudavos.jpg", title: "Porți aluminiu DAVOS", desc: "Porți din aluminiu elegante și rezistente, potrivite pentru orice casă.", link: "/porti-aluminiu" },
-    { img: "/public/assets/portisigardurimetalice.jpg", title: "Porți și garduri metalice", desc: "Balustrade durabile și estetice pentru scări, terase sau balcoane.", link: "/porti-metalice" },
-    { img: "/public/assets/portisigardurizincate.jpg", title: "Porți și garduri zincate", desc: "Rulouri moderne pentru protecție solară și intimitate.", link: "/porti-garduri-zincate" },
-    { img: "/public/assets/usidegarajindustriale.jpg", title: "Uși de garaj și industriale", desc: "Uși de garaj sigure și automate, pentru orice tip de garaj.", link: "/usi-garaj" },
-    { img: "/public/assets/ferestresiusicugeamtermopan.jpg", title: "Ferestre și uși cu geam termopan", desc: "Ferestre eficiente termic și fonic, cu geam termopan.", link: "/ferestre-usi-termopan" },
-    { img: "/public/assets/automatizaribft.jpg", title: "Automatizări BFT", desc: "Sisteme de automatizare pentru porți și uși de garaj.", link: "/automatizari-bft" },
-    { img: "/public/assets/balustrademetalice.jpg", title: "Balustrade metalice", desc: "Mobilier metalic și durabil pentru grădini și terase.", link: "/balustrade-metalice" },
+    { img: "/assets/portialuminiudavos.jpg", title: "Porți aluminiu DAVOS", desc: "Porți din aluminiu elegante și rezistente, potrivite pentru orice casă.", link: "/porti-aluminiu" },
+    { img: "/assets/portisigardurimetalice.jpg", title: "Porți și garduri metalice", desc: "Balustrade durabile și estetice pentru scări, terase sau balcoane.", link: "/porti-metalice" },
+    { img: "/assets/portisigardurizincate.jpg", title: "Porți și garduri zincate", desc: "Rulouri moderne pentru protecție solară și intimitate.", link: "/porti-garduri-zincate" },
+    { img: "/assets/usidegarajindustriale.jpg", title: "Uși de garaj și industriale", desc: "Uși de garaj sigure și automate, pentru orice tip de garaj.", link: "/usi-garaj" },
+    { img: "/assets/ferestresiusicugeamtermopan.jpg", title: "Ferestre și uși cu geam termopan", desc: "Ferestre eficiente termic și fonic, cu geam termopan.", link: "/ferestre-usi-termopan" },
+    { img: "/assets/automatizaribft.jpg", title: "Automatizări BFT", desc: "Sisteme de automatizare pentru porți și uși de garaj.", link: "/automatizari-bft" },
+    { img: "/assets/balustrademetalice.jpg", title: "Balustrade metalice", desc: "Mobilier metalic și durabil pentru grădini și terase.", link: "/balustrade-metalice" },
 ];
 
 function Home() {

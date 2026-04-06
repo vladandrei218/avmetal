@@ -1,15 +1,15 @@
 import { useState } from "react";
 
 const compactImages = Object.values(
-    import.meta.glob('/src/assets/COMPACT/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
+    import.meta.glob('/public/assets/COMPACT/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
 ) as string[];
 
 const prismaImages = Object.values(
-    import.meta.glob('/src/assets/PRISMA/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
+    import.meta.glob('/public/assets/PRISMA/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
 ) as string[];
 
 const supremeImages = Object.values(
-    import.meta.glob('/src/assets/SUPREME/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
+    import.meta.glob('/public/assets/SUPREME/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
 ) as string[];
 
 

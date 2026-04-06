@@ -1,8 +1,32 @@
 import { useState } from "react";
 
-const FerestreTermopanImages = Object.values(
-    import.meta.glob('/assets/BALUSTRADE/*.{jpg,jpeg,png,webp}', { eager: true, as: 'url' })
-) as string[];
+const FerestreTermopanImages = [
+  "/assets/BALUSTRADE/balustrade1.jpg",
+  "/assets/BALUSTRADE/balustrade2.jpg",
+  "/assets/BALUSTRADE/balustrade3.jpg",
+  "/assets/BALUSTRADE/balustrade4.jpg",
+  "/assets/BALUSTRADE/balustrade5.jpg",
+  "/assets/BALUSTRADE/balustrade6.jpg",
+  "/assets/BALUSTRADE/balustrade7.jpg",
+  "/assets/BALUSTRADE/balustrade8.jpg",
+  "/assets/BALUSTRADE/balustrade9.jpg",
+  "/assets/BALUSTRADE/balustrade10.jpg",
+  "/assets/BALUSTRADE/balustrade11.jpg",
+  "/assets/BALUSTRADE/balustrade12.jpg",
+  "/assets/BALUSTRADE/balustrade13.jpg",
+  "/assets/BALUSTRADE/balustrade14.jpg",
+  "/assets/BALUSTRADE/balustrade15.jpg",
+  "/assets/BALUSTRADE/balustrade16.jpg",
+  "/assets/BALUSTRADE/balustrade17.jpg",
+  "/assets/BALUSTRADE/balustrade18.jpg",
+  "/assets/BALUSTRADE/balustrade19.jpg",
+  "/assets/BALUSTRADE/balustrade20.jpg",
+  "/assets/BALUSTRADE/balustrade21.jpg",
+  "/assets/BALUSTRADE/balustrade22.jpg",
+  "/assets/BALUSTRADE/balustrade23.jpg",
+  "/assets/BALUSTRADE/balustrade24.jpg",
+  "/assets/BALUSTRADE/balustrade25.jpg",
+];
 
 
 
